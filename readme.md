@@ -14,7 +14,7 @@ In sqlite3 database, there are four tables *movie_basics*,*movie_akas*,*persons*
 
 # Data Preparation
 ## Table previews
-table **previews** are showned below to give a brief peep into datas that will be worked on.
+Table **previews** are showned below to give a brief peep into datas that will be worked on.
 
 # Exploratory Data Analysis
 ### Budgets
@@ -46,12 +46,12 @@ I would *recommend* setting genre as adventure and action or comedy, since films
 This Analysis generates 3 recommendations:
 1. Have **budget** set *between* 100K to 200K to have better chance to have high return on investment. 
 2. Pick top 10 personas from each category such as Reese Mishler, Cassiidy Gifford, Travis Cluff, Chris Lofing, Pfeifer Brown, and Ryan Shoos, since these persons have significant higher **ROI** than rest of person.
-3. Set genre as adventure and action or comedy, since films yeild high **ROI** are in these genre or commbination of these genres.
+3. Set genre as adventure and action or comedy, since films yield high **ROI** are in these genre or combination of these genres.
 ## More
 There are some more related finds:
 1. Another *measurement* here can be films **rating**, while it would provide perspective about how people like the film, ratings might not give as many insights about profit as **ROI** does.  
 
-2. There are many **Generes** that doesn't have many records. However for those not-well-produced **generes** have some films that yield high ROI. This films can be investigated further and out of this project's scope.
+2. There are many **Genres** that doesn't have many records. However for those not-well-produced **generes** have some films that yield high ROI. This films can be investigated further and out of this project's scope.
 
 3. The impact of persons on films'ROI are so correlated to films themselves. If there a group of person are in same film and that film has high **ROI** then those person all have high **ROI**. So alternatively, we can investigate **ROI** for each **title**, and then choose person from top 10 films that have highest ROI. 
 
