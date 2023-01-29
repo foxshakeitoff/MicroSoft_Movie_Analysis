@@ -59,7 +59,10 @@ There are some more related finds:
 
 
 # More Informations
-Link of my jupyternotebook, presentation.pdf
+Link of my jupyternotebook
+https://github.com/foxshakeitoff/MicroSoft_Movie_Analysis/blob/main/Notebook.ipynb
+Link of my presentation.pdf
+https://github.com/foxshakeitoff/MicroSoft_Movie_Analysis/blob/main/Presentation.pdf
 ## Repository Structure
 ```
 ├── data
