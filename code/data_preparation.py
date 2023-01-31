@@ -2,9 +2,9 @@ import pandas as pd
 import matplotlib as plt
 
 def currency_to_int(x):
-    x.replace('$','')
-    x.replace(',','')
-    x=int(x)
+    x = x.replace('$','')
+    x = x.replace(',','')
+    int(x)
     return x
 
 def get_name_bar(x):

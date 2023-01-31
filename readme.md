@@ -1,5 +1,6 @@
 # Overview
-![pic](images/The_Gallow.jpg) from upsplash.com
+![pic](images/The_Gallow.jpg) 
+from upsplash.com
 The film industry is big. And some films have big box offices, such as Avatar. Some films may not seem big but with small investments, yielded significant profits compared to the investment, like The Gallows. There are many factors that can affect investment outcomes, such as politics, time of year, and the economy. More in films themselves, there are *factors* like **Budget, Director/Actor, and Genre**.  
 
 # Business Understanding
@@ -13,11 +14,16 @@ There are 5 *csv files*(including tsv files) and 1 *sqlite database*.
 In sqlite3 database, there are four tables *movie_basics*,*movie_akas*,*persons*,*principals*. These tables contain information about directors, actors, and actresses, including their names. Also, movie titles have primary titles, original titles and aka titles, which are used to connect to *movie_budgets.csv*, so we can get the ROI for each **category(directors, actors, actresses)**. In the meantime, we also can get the ROI for each **genre**.
 
 # Data Preparation
+Data can be aquired here:
+https://github.com/learn-co-curriculum/dsc-phase-1-project-v2-4/tree/master/zippedData
+
+Copy files to `data` folder in project
 ## Table previews
 Table **previews** are shown below to give a brief peep into data that will be worked on.
 
 # Exploratory Data Analysis
 ### Budgets
+![pic](images/ROI_by_budget.png)
 1. Most films have an ROI below 50. 
 
 2. When **budget** is *between* 10K to 1M, films have *higher* chance to achieve higher ROI, especially when budget are *between* 100K to 1M.
@@ -28,10 +34,14 @@ Table **previews** are shown below to give a brief peep into data that will be w
 
 My **recommendation** is to have **budget** set *between* 100K to 200K to have a better chance to have a high return on investment. 
 ### Director/Actor
+![pic](images/ROI_by_actor.png)
+![pic](images/ROI_by_actress.png)
+![pic](images/ROI_by_director.png)
 These show *the top 20* **actors, directors, and actresses** from the above graphs. However this result is strongly *correlated* with the specific **films** they are in. As top 1 and top 2 in each category, Reese Mishler, Cassidy Gifford, Travis Cluff, Chris Lofing, Pfeifer Brown, and Ryan Shoos all are part of *the same* film. 
 
 I recommend picking the top 10 personas from each category since these persons have significantly higher ROI than the rest person.
 ### Genre
+![pic](images/ROI_by_top_10.png)
 1. *' Adventure, Animation, Comedy, 'Action, Adventure, Sci-Fi',' Action, Adventure, Fantasy* are there **genres** that generate *the most* **ROI** compared to other **genres** or genre combinations. 
 
 2. However overall each **genres** tends to have smilar **ROI** based on median comparison.
