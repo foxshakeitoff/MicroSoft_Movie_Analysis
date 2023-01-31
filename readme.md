@@ -65,7 +65,6 @@ Link of my presentation.pdf
 https://github.com/foxshakeitoff/MicroSoft_Movie_Analysis/blob/main/Presentation.pdf
 ## Repository Structure
 ```
-├── data
 ├── images
 ├── README.md
 ├── Presentation.pdf
