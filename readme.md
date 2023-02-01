@@ -41,7 +41,7 @@ These show *the top 20* **actors, directors, and actresses** from the above grap
 
 I recommend picking the top 10 personas from each category since these persons have significantly higher ROI than the rest person.
 ### Genre
-![pic](images/ROI_by_top_10.png)
+![pic](images/ROI_by_genres_top_10.png)
 1. *' Adventure, Animation, Comedy, 'Action, Adventure, Sci-Fi',' Action, Adventure, Fantasy* are there **genres** that generate *the most* **ROI** compared to other **genres** or genre combinations. 
 
 2. However overall each **genres** tends to have smilar **ROI** based on median comparison.
