@@ -4,8 +4,8 @@ import matplotlib as plt
 def currency_to_int(x):
     x = x.replace('$','')
     x = x.replace(',','')
-    int(x)
-    return x
+    
+    return int(x)
 
 def get_name_bar(x):
     df_top_20_x = df_final_aftergroupby[df_final_aftergroupby.category==x][:20]
